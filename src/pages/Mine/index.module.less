@@ -1,0 +1,97 @@
+.mine_warp_box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+}
+.headerIcon {
+  width: 100%;
+  padding: 0 24px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+  li {
+    &:first-child {
+      width: 63px;
+    }
+    h4 {
+      font-size: 14px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+    p {
+      margin-top: 5px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #ffffff;
+    }
+  }
+}
+.mineMenu {
+  margin: 22px 18px 0 18px;
+  background-color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    span {
+      float: right;
+      display: block;
+      font-size: 12px;
+      color: #999999;
+    }
+  }
+  ul {
+    display: flex;
+    margin-top: 20px;
+    li {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      span {
+        &:first-child {
+          width: 30px;
+          height: 30px;
+          margin-bottom: 5px;
+        }
+        font-size: 12px;
+        font-weight: 500;
+        color: #333333;
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.mineMenuList {
+  margin: 22px 18px 0 18px;
+  :global {
+    .adm-list {
+      border-radius: 10px 10px 10px 10px;
+      overflow: hidden;
+    }
+  }
+}
+.mineBtn {
+  height: 45px;
+  background: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 16px;
+  color: #999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mineHight {
+  height: 12px;
+}
